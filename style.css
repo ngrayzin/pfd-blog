@@ -1,5 +1,3 @@
-body { padding-top: 70px; }
-
 svg {
     display: inline-block;
     position: absolute;
@@ -36,5 +34,16 @@ svg {
   .section{
     margin: auto;
     width: 60%;
-    margin-top: 5%;
   }
+
+section{
+  padding:5%;
+}
+
+.nav-pills > li > a.active {
+  background-color: #E1EFE3 !important;
+}
+
+#scrollspyHeading2{
+  padding-top:100px;
+}
