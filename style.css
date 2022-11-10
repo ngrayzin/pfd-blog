@@ -64,9 +64,7 @@ section{
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
-body {
-  background-color: #0a69ed;
-}
+
 .wrapper {
   background-color: #E1EFE3;
   position: relative;
@@ -118,4 +116,43 @@ button#prev {
     font-size: 14px;
   }
 }
+
+.marquee2 {
+  position: relative;
+  overflow: hidden;
+  --offset: 20vw;
+  --move-initial: calc(-20% + var(--offset));
+  --move-final: calc(-40% + var(--offset));
+}
+
+.marquee__inner2 {
+  width: fit-content;
+  display: flex;
+  position: relative;
+  transform: translate3d(0, 0, 0);
+  animation: marquee2 12s linear infinite;
+  animation-play-state: play;
+  color: #1a1a1a;
+  font-family: 'Noctis Bold';
+}
+
+.marquee2 span {
+  color: #E1EFE3;
+  font-weight: 300;
+  padding: 0 2vw;
+}
+
+.marquee2:hover .marquee__inner2 {
+  animation-play-state: paused;
+}
+
+@keyframes marquee2 {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+
  
