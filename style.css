@@ -72,7 +72,7 @@ section{
 }
 
 .wrapper {
-  background-color: #E1EFE3;
+  background-color: #aabed3;
   position: relative;
   width: 80vw;
   max-width: 120em;
@@ -100,7 +100,7 @@ section{
   top: 0;
   bottom: 0;
   border: none;
-  color: #26e042;
+  color: black;
   box-shadow: 0 0 1em rgba(1, 17, 39, 0.25);
   cursor: pointer;
   border-radius: 50%;
@@ -112,7 +112,7 @@ button#prev {
   left: -1.1em;
 }
 .testimonial-container p {
-  color: #8c8c90;
+  color: black;
   font-size: 0.9em;
   line-height: 2em;
   letter-spacing: 0.05em;
