@@ -62,19 +62,21 @@ const testimonials = [
   let prevBtn = document.getElementById("prev");
   let weeknum = document.getElementById("week");
   
-  nextBtn.addEventListener("click", () => {
-    i = (j + i + 1) % j;
-    displayTestimonial();
-  });
-  prevBtn.addEventListener("click", () => {
-    i = (j + i - 1) % j;
-    displayTestimonial();
-  });
+  // nextBtn.addEventListener("click", () => {
+  //   i = (j + i + 1) % j;
+  //   displayTestimonial();
+  // });
+  // prevBtn.addEventListener("click", () => {
+  //   i = (j + i - 1) % j;
+  //   displayTestimonial();
+  // });
   
-  let displayTestimonial = () => {
-    weeknum.innerHTML = `<p>This is the diary for Week <b style = "color: #26e042;">${testimonials[i].week}</b>:</p>`
-    testimonialContainer.innerHTML = `
-      <p>${testimonials[i].testimonial}</p>
-    `;
-  };
-  window.onload = displayTestimonial;
+  // let displayTestimonial = () => {
+  //   weeknum.innerHTML = `<p>This is the diary for Week <b style = "color: #26e042;">${testimonials[i].week}</b>:</p>`
+  //   testimonialContainer.innerHTML = `
+  //     <p>${testimonials[i].testimonial}</p>
+  //   `;
+  // };
+  // window.onload = displayTestimonial;
+
+  
